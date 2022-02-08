@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Javascrpt on Steroids</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Challange 1: Your Age In Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+
+            <div>
+                <button class ="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+    <div class = "container-2">
+        <h2>Challange 2: Cat Generator</h2>
+        <div>
+            <button class = "btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
+        </div>
+
+        <div class="flex-box-container-2" id="flex-cat-gen"></div>        
+    </div>
+
+    <div class = "container-3">
+        <h2>Challange 3: Rock, Paper, Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="http://images.clipartpanda.com/rock-clipart-niEXaqXrT.png" height=150 width=150 alt="" onclick="rpsGame(this)">    
+            <img id="paper" src="http://images.clipartpanda.com/paper-clip-art-niEBBqMiA.svg" height=150 width=150 alt="" onclick="rpsGame(this)">
+            <img id="scissors" src="https://thumbs.dreamstime.com/b/hand-two-fingers-up-hand-two-fingers-up-victory-peace-symbol-letter-v-sign-language-scissors-gesture-hand-drawn-116019432.jpg" height=150 width=150 alt="" onclick="rpsGame(this)">
+
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+
+</body>
+</html>
